@@ -7,7 +7,7 @@
         amount,
         created
 
-    from "PC_FIVETRAN_DB"."GOOGLE_DRIVE"."STRIPE_PAYMENTS"
+    from {{ source('stripe', 'STRIPE_PAYMENTS')}} 
 
 )
 

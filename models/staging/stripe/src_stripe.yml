@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stripe
+    database: PC_FIVETRAN_DB
+    schema: GOOGLE_DRIVE
+    tables:
+      - name: STRIPE_PAYMENTS
